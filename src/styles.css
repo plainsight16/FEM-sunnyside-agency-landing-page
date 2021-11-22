@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.contain{
+    @apply px-8;
+}
+
+h1,h2,h3{
+    @apply font-Fraunces;
+}
+
+p{
+    @apply leading-8 text-neutral-grayish-blue;
+}
+
+/*NAV-SECTION*/
+.nav a{
+    @apply py-4 px-4;
+}
+
+/*IMAGE-GALLERY*/
+.gallery{
+    @apply flex flex-col sm:flex-row;
+}
+.gallery .text-content{
+    @apply py-40 px-16 flex flex-col items-center sm:items-start text-center sm:text-left sm:w-2/4;
+}
+.text-content .header{
+    @apply text-4xl text-neutral-desaturated-blue mb-12 leading-10;
+}
+.text-content p{
+    @apply mb-12
+}
+.text-content .learn-more{
+    @apply uppercase z-10 text-sm text-neutral-desaturated-blue;
+}
+.text-content .bg-learn-more{
+    @apply rounded-full py-1 px-2 h-1 bottom-2 right-1 w-28 relative;
+}
+.gallery img{
+    @apply sm:w-2/4;
+}
+
+/*IMAGE-SECTION*/
+.img-section img{
+    @apply w-2/4 sm:w-2/4
+}
+
+/*FOOTER-SECTION*/
+.footer a{
+    @apply text-primary-graphic-design
+}
