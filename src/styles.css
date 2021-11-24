@@ -22,11 +22,11 @@ p{
 
 /*NAV-SECTION*/
 .nav{
-    background: url(/images/mobile/image-header.jpg);
+    background: url(./images/mobile/image-header.jpg);
 }
 @media (min-width: 640px) {
     .nav {
-        background-image: url(/images/desktop/image-header.jpg);
+        background-image: url(./images/desktop/image-header.jpg);
     }
 }
 .nav a{
@@ -50,11 +50,11 @@ p{
 /* HERO */
 
 .hero{
-    background-image: url(/images/mobile/image-header.jpg);
+    background-image: url(./images/mobile/image-header.jpg);
 }
 @media (min-width: 640px) {
     .hero {
-        background-image: url(/images/desktop/image-header.jpg);
+        background-image: url(./images/desktop/image-header.jpg);
     }
 }
 
@@ -81,20 +81,20 @@ p{
     @apply sm:w-2/4;
 }
 .img-3{
-    background-image: url(/images/mobile/image-graphic-design.jpg);
+    background-image: url(./images/mobile/image-graphic-design.jpg);
 }
 @media (min-width: 640px) {
     .img-3 {
-        background-image: url(/images/desktop/image-graphic-design.jpg);
+        background-image: url(./images/desktop/image-graphic-design.jpg);
     }
 }
 
 .img-4{
-    background-image: url(/images/mobile/image-photography.jpg);
+    background-image: url(./images/mobile/image-photography.jpg);
 }
 @media (min-width: 640px) {
     .img-4 {
-        background-image: url(/images/desktop/image-photography.jpg);
+        background-image: url(./images/desktop/image-photography.jpg);
     }
 }
 

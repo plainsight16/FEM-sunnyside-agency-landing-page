@@ -758,14 +758,6 @@ video {
   background-color: hsla(168, 34%, 41%, var(--tw-bg-opacity));
 }
 
-.bg-m-image-gallery-\#3{
-  background-image: url(/images/mobile/image-graphic-design.jpg);
-}
-
-.bg-m-image-gallery-\#4{
-  background-image: url(/images/mobile/image-photography.jpg);
-}
-
 .bg-cover{
   background-size: cover;
 }
@@ -924,12 +916,12 @@ p{
 /*NAV-SECTION*/
 
 .nav{
-  background: url(/images/mobile/image-header.jpg);
+  background: url(./images/mobile/image-header.jpg);
 }
 
 @media (min-width: 640px) {
   .nav {
-    background-image: url(/images/desktop/image-header.jpg);
+    background-image: url(./images/desktop/image-header.jpg);
   }
 }
 
@@ -979,12 +971,12 @@ p{
 /* HERO */
 
 .hero{
-  background-image: url(/images/mobile/image-header.jpg);
+  background-image: url(./images/mobile/image-header.jpg);
 }
 
 @media (min-width: 640px) {
   .hero {
-    background-image: url(/images/desktop/image-header.jpg);
+    background-image: url(./images/desktop/image-header.jpg);
   }
 }
 
@@ -1068,22 +1060,22 @@ p{
 }
 
 .img-3{
-  background-image: url(/images/mobile/image-graphic-design.jpg);
+  background-image: url(./images/mobile/image-graphic-design.jpg);
 }
 
 @media (min-width: 640px) {
   .img-3 {
-    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-image: url(./images/desktop/image-graphic-design.jpg);
   }
 }
 
 .img-4{
-  background-image: url(/images/mobile/image-photography.jpg);
+  background-image: url(./images/mobile/image-photography.jpg);
 }
 
 @media (min-width: 640px) {
   .img-4 {
-    background-image: url(/images/desktop/image-photography.jpg);
+    background-image: url(./images/desktop/image-photography.jpg);
   }
 }
 
@@ -1147,14 +1139,6 @@ p{
   .sm\:bg-white{
     --tw-bg-opacity: 1;
     background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
-  }
-
-  .sm\:bg-image-gallery-\#3{
-    background-image: url(/images/desktop/image-graphic-design.jpg);
-  }
-
-  .sm\:bg-image-gallery-\#4{
-    background-image: url(/images/desktop/image-photography.jpg);
   }
 
   .sm\:p-4{
