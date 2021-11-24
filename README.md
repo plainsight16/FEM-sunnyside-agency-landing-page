@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Sunnyside-agency-landing-page-screenshot.jpg)
+![](./Sunnyside-agency-landing-page-screenshot.png)
 ### Links
 - Live Site URL: [Add live site URL here](https://plainsight16.github.io/FEM-sunnyside-agency-landing-page/)
 
