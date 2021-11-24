@@ -8,6 +8,9 @@
 .contain{
     @apply px-8;
 }
+.noScroll{
+    overflow-y: hidden;
+}
 
 h1,h2,h3{
     @apply font-Fraunces;
@@ -19,7 +22,21 @@ p{
 
 /*NAV-SECTION*/
 .nav a{
-    @apply py-4 px-4;
+    @apply py-4 px-4 text-neutral-desaturated-blue sm:text-neutral-white;
+}
+.nav button{
+    @apply bg-primary-yellow text-neutral-desaturated-blue sm:bg-neutral-white;
+}
+.nav-links::before{
+    content:"";
+    position:absolute;
+    top:-24px;
+    right:0;
+    background-color: white;
+    width:1.5rem;
+    height:1.5rem;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    transform:scaleX(-1);
 }
 
 /*IMAGE-GALLERY*/

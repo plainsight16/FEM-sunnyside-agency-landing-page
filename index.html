@@ -16,7 +16,9 @@
   </style>
 </head>
 <body class="font-Barlow">
-  <nav class=" p-8 sm:p-4 bg-m-image-header sm:bg-image-header  text-neutral-white nav flex justify-between items-center contain font-Barlow">
+
+  <!--NAV-->
+  <nav class=" relative p-8 sm:p-4 bg-m-image-header sm:bg-image-header  text-neutral-white nav flex justify-between items-center contain font-Barlow">
     
     <!--LOGO-->
     <div class="flex items-center">
@@ -25,22 +27,23 @@
     </div>
 
     <!--NAV-Links-->
-    <div class="hidden sm:flex sm:items-center ">
+    <div class="sm:before:hidden nav-links hidden absolute top-24 w-3/4 left-1/2 transform -translate-x-1/2 bg-neutral-white flex flex-col items-center sm:static sm:flex-row sm:w-auto sm:block sm:bg-transparent sm:translate-x-0">
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Projects</a>
       <a class="" href="#">
-        <button class="font-Fraunces uppercase bg-white rounded-full text-neutral-desaturated-blue py-4 px-8 hover:bg-neutral-grayish-blue hover:text-neutral-white">
+        <button class="font-Fraunces uppercase sm:bg-white rounded-full text-neutral-desaturated-blue py-4 px-8 sm:hover:bg-neutral-grayish-blue sm:hover:text-neutral-white">
           Contact
         </button>
       </a>
     </div>
 
     <!--NAV-Mobile-Menu-->
-    <div class="sm:hidden">
+    <div class="sm:hidden burger-icon">
       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
+      </div>
     </div>
   </nav>
   
@@ -218,7 +221,7 @@
       </svg>
 
       <!--Footer-Links-->
-      <div class="flex gap-14">
+      <div class="flex gap-10 px-4">
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Projects</a>
@@ -247,9 +250,6 @@
     </div>
   </footer>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Abdullahi Bakare</a>.
-  </div>
+  <script src="./dist/script.js"></script>
 </body>
 </html>
